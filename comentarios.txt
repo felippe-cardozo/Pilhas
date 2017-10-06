@@ -1,4 +1,8 @@
-Minha estratégia consistiu em manter duas listas separadas, uma com os valores 'reais' e outra com os valores mínimos e também manter uma variável 'size'. Cada vez que um valor é inserido via push, a instância checa se ele é menor que o último valor adicionado à lista dos valores mínimos, se for menor, é adcionado à lista de mínimos, do contrário o valor menor é adicionado novamente. Assim, quando o método 'min' é chamado, ele precisa de apenas uma operação para checar o menor valor, independente do tamanho da lista.
+Minha estratégia consistiu em manter duas listas separadas, uma com os valores 'reais' 
+e outra com os valores mínimos e também manter uma variável 'size'. Cada vez que um valor é inserido
+via push, a instância checa se ele é menor que o último valor adicionado à lista dos valores mínimos,
+se for menor, é adcionado à lista de mínimos, do contrário o valor menor é adicionado novamente. 
+Assim, quando o método 'min' é chamado, ele precisa de apenas uma operação para checar o menor valor, independente do tamanho da lista.
 
 >> from pilhas import Pilhas
 >> p = Pilhas()
